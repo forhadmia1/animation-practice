@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkgray;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.banner{
+    display: flex;
+    height: 100vh;
+}
+.banner-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    line-height: 2;
+}
+.banner-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-right img{
+    width: 500px;
+    
+}
+.banner-title{
+    font-size: 50px;
+    position: relative;
+    color: black;
+}
+.banner-title::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 120px;
+    animation: typing 15s linear 1s infinite;
+    animation-play-state: running;
+}
+@keyframes typing {
+    
+    0%{
+        content: '|';
+        color: tomato;
+    }
+    2%{
+        content: 'F|';
+        color: tomato;
+    }
+    4%{
+        content: 'Fo|';
+        color: tomato;
+    }
+    6%{
+        content: 'For|';
+        color: tomato;
+    }
+    8%{
+        content: 'Forh|';
+        color: tomato;
+    }
+    10%{
+        content: 'Forha|';
+        color: tomato;
+    }
+    12%{
+        content: 'Forhad|';
+        color: tomato;
+    }
+    14%{
+        content: 'Forhad |';
+        color: tomato;
+    }
+    16%{
+        content: 'Forhad H|';
+        color: tomato;
+    }
+    18%{
+        content: 'Forhad Ha|';
+        color: tomato;
+    }
+    20%{
+        content: 'Forhad Has|';
+        color: tomato;
+    }
+    22%{
+        content: 'Forhad Hasa|';
+        color: tomato;
+    }
+    24%{
+        content: 'Forhad Hasan|';
+        color: tomato;
+    }
+    25%,31%{
+        content: 'Forhad Hasa|';
+        color: tomato;
+    }
+    32%{
+        content: 'Forhad Has|';
+        color: tomato;
+    }
+    33%{
+        content: 'Forhad Ha|';
+        color: tomato;
+    }
+    33%{
+        content: 'Forhad H|';
+        color: tomato;
+    }
+    35%{
+        content: 'Forhad |';
+        color: tomato;
+    }
+    36%{
+        content: 'Forhad|';
+        color: tomato;
+    }
+    37%{
+        content: 'Forha|';
+        color: tomato;
+    }
+    38%{
+        content: 'Forh|';
+        color: tomato;
+    }
+    39%{
+        content: 'For|';
+        color: tomato;
+    }
+    40%{
+        content: 'Fo|';
+        color: tomato;
+    }
+    41%{
+        content: 'F|';
+        color: tomato;
+    }
+    42%{
+        content: '|';
+        color: tomato;
+    }
+    49%{
+        content: 'a|';
+        color:royalblue;
+    }
+    51%{
+        content: 'a |';
+        color:royalblue;
+    }
+    53%{
+        content: 'a W|';
+        color:royalblue;
+    }
+    55%{
+        content: 'a We|';
+        color:royalblue;
+    }
+    57%{
+        content: 'a Web|';
+        color:royalblue;
+    }
+    59%{
+        content: 'a Web |';
+        color:royalblue;
+    }
+    61%{
+        content: 'a Web D|';
+        color:royalblue;
+    }
+    63%{
+        content: 'a Web De|';
+        color:royalblue;
+    }
+    65%{
+        content: 'a Web Dev|';
+        color:royalblue;
+    }
+    67%{
+        content: 'a Web Devl|';
+        color:royalblue;
+    }
+    69%{
+        content: 'a Web Devlo|';
+        color:royalblue;
+    }
+    71%{
+        content: 'a Web Devlop|';
+        color:royalblue;
+    }
+    73%{
+        content: 'a Web Devlope|';
+        color:royalblue;
+    }
+    75%{
+        content: 'a Web Devloper|';
+        color:royalblue;
+    }
+    82%{
+        content: 'a Web Devlope|';
+        color:royalblue;
+    }
+    83%{
+        content: 'a Web Devlop|';
+        color:royalblue;
+    }
+    84%{
+        content: 'a Web Devlo|';
+        color:royalblue;
+    }
+    85%{
+        content: 'a Web Devl|';
+        color:royalblue;
+    }
+    86%{
+        content: 'a Web Dev|';
+        color:royalblue;
+    }
+    87%{
+        content: 'a Web De|';
+        color:royalblue;
+    }
+    88%{
+        content: 'a Web D|';
+        color:royalblue;
+    }
+    89%{
+        content: 'a Web |';
+        color:royalblue;
+    }
+    90%{
+        content: 'a Web|';
+        color:royalblue;
+    }
+    91%{
+        content: 'a We|';
+        color:royalblue;
+    }
+    92%{
+        content: 'a W|';
+        color:royalblue;
+    }
+    93%{
+        content: 'a |';
+        color:royalblue;
+    }
+    94%{
+        content: 'a|';
+        color:royalblue;
+    }
+    
+    95%, 100%{
+        content: '|';
+        color: royalblue;
+    }
+    
+}
+.contact-btn{
+    padding: 10px 20px;
+    border: 4px solid royalblue;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: royalblue;
+    transition: 1s;
+}
+.contact-btn:hover{
+    background-color: white;
+}
