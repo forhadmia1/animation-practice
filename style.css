@@ -439,6 +439,9 @@ body{
 /* responsive style */
 
 @media only screen and (max-width:688px){
+    .leatest-work,.price-section{
+        margin-top: 50px;
+    }
    .banner{
        width: 100%;
        flex-direction: column;
